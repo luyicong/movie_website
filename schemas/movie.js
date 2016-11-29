@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
 
+//定义movie集合的数据模型
 var MovieSchema = new mongoose.Schema({
 	doctor:String,
 	title:String,

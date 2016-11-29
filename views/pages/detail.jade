@@ -4,7 +4,7 @@ block content
 	.container
 		.row
 			.col-md-7
-				embed(src="#{movie.flash}",allowFullScreen="true",wmode="transparent",quality="high",width="720",height="600",align="middle",type="appliction/x-shockwave-flash",pluginspage="http://www.macromedia.com/go/getflashplayer",title="#{movie.title}")
+				embed(src='#{movie.flash}' allowFullScreen='true' quality='high' width='720' height='420' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash')
 				//- object(width="720",height="600",data-player-playerbody="flash" type="application/x-shockwave-flash" data="#{movie.flash}")
 			.col-md-5
 				dl.dl-horizontal
